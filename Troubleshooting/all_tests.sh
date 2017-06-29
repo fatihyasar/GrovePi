@@ -17,5 +17,5 @@ sudo ./avrdude_test.sh 2>&1| tee -a log.txt
 sudo ./i2c_test1.sh 2>&1| tee -a log.txt
 sudo ./firmware_version_test.sh 2>&1| tee -a log.txt
 
-cp log.txt /home/pi/Desktop/log.txt
+cp log.txt /home/linaro/Desktop/log.txt
 echo "Log has been saved to Desktop. Please copy it and send it by email or upload it on the forums"

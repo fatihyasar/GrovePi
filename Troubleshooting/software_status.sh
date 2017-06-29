@@ -95,7 +95,7 @@ lsusb -t
 
 echo "Raspbian for Robots Version"
 echo ===========================
-cat /home/pi/di_update/Raspbian_For_Robots/Version
+cat /home/linaro/di_update/Raspbian_For_Robots/Version
 echo ""
 echo ""
 

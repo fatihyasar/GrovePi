@@ -18,7 +18,7 @@
 # http://www.seeedstudio.com/wiki/Grove_-_Multichannel_Gas_Sensor
 # https://github.com/Seeed-Studio/Mutichannel_Gas_Sensor
 import time,sys
-import RPi.GPIO as GPIO
+import ASUS.GPIO as GPIO
 import smbus
 
 # use the bus that matches your raspi version

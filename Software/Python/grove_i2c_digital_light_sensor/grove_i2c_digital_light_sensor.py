@@ -9,7 +9,7 @@
 import time
 import smbus
 from Adafruit_I2C import Adafruit_I2C
-import RPi.GPIO as GPIO
+import ASUS.GPIO as GPIO
 from smbus import SMBus
 
 TSL2561_Control = 0x80

@@ -49,8 +49,9 @@ import math
 import struct
 import numpy
 
-debug = 0
+debug = 1
 
+'''
 if sys.version_info<(3,0):
 	p_version=2
 else:
@@ -67,6 +68,13 @@ else:
 		bus = smbus.SMBus(1)
 	else:
 		bus = smbus.SMBus(0)
+'''
+
+import smbus
+import ASUS.GPIO as GPIO
+bus = smbus.SMBus(1)
+p_version=3
+
 
 # I2C Address of Arduino
 address = 0x04

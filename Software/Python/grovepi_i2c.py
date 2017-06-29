@@ -36,7 +36,7 @@ THE SOFTWARE.
 import smbus
 import time
 import grovepi
-import RPi.GPIO as GPIO
+import ASUS.GPIO as GPIO
 
 # use the bus that matches your raspi version
 rev = GPIO.RPI_REVISION

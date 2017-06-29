@@ -53,7 +53,7 @@ from grove_i2c_barometic_sensor_BMP180 import BMP085
 #################################################################
 ## File Location
 
-log_file="/home/pi/Desktop/weather_station_log.csv"		# This is the name of the file we will save data to.
+log_file="/home/linaro/Desktop/weather_station_log.csv"		# This is the name of the file we will save data to.
 														# This is hard coded to the Desktop.
 
 #################################################################

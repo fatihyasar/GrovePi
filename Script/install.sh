@@ -1,7 +1,7 @@
 #! /bin/bash
 curl --silent https://raw.githubusercontent.com/DexterInd/script_tools/master/install_script_tools.sh | bash
 
-PIHOME=/home/pi
+PIHOME=/home/linaro
 DEXTERSCRIPT=$PIHOME/Dexter/lib/Dexter/script_tools
 USER_ID=$(/usr/bin/id -u)
 USER_NAME=$(/usr/bin/who am i | awk '{ print $1 }')
@@ -115,11 +115,11 @@ install_dependencies() {
 	sudo apt-get purge python3-rpi.gpio -y
 	sudo apt-get install python-rpi.gpio -y
 	sudo apt-get install python3-rpi.gpio -y
-       sudo apt-get install python-scipy -y
-       sudo apt-get install python3-scipy -y
+	sudo apt-get install python-scipy -y
+	sudo apt-get install python3-scipy -y
 	sudo pip install -U RPi.GPIO
-  sudo pip2 install numpy
-  sudo pip3 install numpy
+	sudo pip2 install numpy
+	sudo pip3 install numpy
 
     feedback "Dependencies installed"
 }
@@ -204,7 +204,7 @@ install_spi_i2c() {
 install_avr() {
 	feedback "Installing avrdude"
 	feedback "=================="
-	source /home/pi/Dexter/lib/Dexter/script_tools/install_avrdude.sh
+	source /home/linaro/Dexter/lib/Dexter/script_tools/install_avrdude.sh
 	create_avrdude_folder
     install_avrdude
     cd $ROBOT_DIR

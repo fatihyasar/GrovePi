@@ -54,6 +54,6 @@ def send_email(content, destination, subject, file):
 # send_email(content, destination, subject, file)  where "content" is the content of the email, destination is the destination 
 # of the e-mail (who you're emailing to) and subject is the subject of the e-mail.  file is the filename of the image file
 # you want to attach.  It's usually best to include the full path of the file!
-file = "/home/pi/test.jpg"
+file = "/home/linaro/test.jpg"
 destination = ['examples@dexterindustries.com'] 	# Enter the destination e-mail address here, between the ''
 send_email("Hello from my Raspberry Pi!", destination, "Hello from Dex!", file)

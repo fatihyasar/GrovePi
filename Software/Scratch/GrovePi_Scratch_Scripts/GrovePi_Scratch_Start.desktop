@@ -2,7 +2,7 @@
 Encoding=UTF-8
 Version=1.0
 Type=Application
-Exec=/home/pi/Desktop/GrovePi/Software/Scratch/GrovePi_Scratch_Scripts/GrovePi_Scratch_Start.sh
+Exec=/home/linaro/Desktop/GrovePi/Software/Scratch/GrovePi_Scratch_Scripts/GrovePi_Scratch_Start.sh
 Icon=/usr/share/scratch/Media/Costumes/Animals/cat1-b.gif
 Terminal=false
 Name=GrovePi_Scratch_Start

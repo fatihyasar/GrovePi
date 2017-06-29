@@ -16,7 +16,7 @@ def getNewSMBus():
         bus = smbus.SMBus(1)
     else:
         import smbus
-        import RPi.GPIO as GPIO
+        import ASUS.GPIO as GPIO
         revision = GPIO.RPI_REVISION
 
         if revision == 2 or revision == 3:

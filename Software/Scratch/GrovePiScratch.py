@@ -49,14 +49,14 @@ import time
 import os # to handle folder paths
 
 try:
-	sys.path.insert(0, '/home/pi/Dexter/PivotPi/Software/Scratch/')
+	sys.path.insert(0, '/home/linaro/Dexter/PivotPi/Software/Scratch/')
 	import PivotPiScratch
 	pivotpi_available=True
 except:
 	pivotpi_available=False
 
 # Folders where pictures get saved
-defaultCameraFolder="/home/pi/Desktop/"
+defaultCameraFolder="/home/linaro/Desktop/"
 cameraFolder = defaultCameraFolder
 
 

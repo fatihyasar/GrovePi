@@ -40,7 +40,7 @@ THE SOFTWARE.
 '''
 
 import time,sys
-import RPi.GPIO as GPIO
+import ASUS.GPIO as GPIO
 import smbus
 
 # use the bus that matches your raspi version

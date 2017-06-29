@@ -27,7 +27,7 @@ Include the implementation you want to use:
  - Download the pi4j jar and add it to your project libraries
 - GrovePi-dio and the DeviceIO jar
  - Install in the pi and add the resulting jar to your project: https://wiki.openjdk.java.net/display/dio/Getting+Started
- - To run using DIO remember to add: -Djava.library.path="/home/pi/dio/build/so" -Djava.security.policy="/home/pi/dio/dio.policy" to your Java command
+ - To run using DIO remember to add: -Djava.library.path="/home/linaro/dio/build/so" -Djava.security.policy="/home/linaro/dio/dio.policy" to your Java command
 
 Alternatively: Use maven dependencies:
 

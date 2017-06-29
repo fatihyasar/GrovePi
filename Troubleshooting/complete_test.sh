@@ -34,5 +34,5 @@ case $doit in
   *) echo Exiting ;; 
 esac
 
-cp log.txt /home/pi/Desktop/log.txt
+cp log.txt /home/linaro/Desktop/log.txt
 echo "Log has been saved to Desktop. Please copy it and send it by email or upload it on the forums"

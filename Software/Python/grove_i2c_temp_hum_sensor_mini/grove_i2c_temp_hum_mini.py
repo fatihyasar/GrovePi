@@ -37,7 +37,7 @@ THE SOFTWARE.
 # The software for this sensor is still in development and might make your GrovePi unuable as long as this sensor is connected with the GrovePi
 #################################################################################################################################################
 import time,sys
-import RPi.GPIO as GPIO
+import ASUS.GPIO as GPIO
 import smbus
 
 debug = 0

@@ -43,7 +43,7 @@ THE SOFTWARE.
 import smbus
 import time
 import math
-import RPi.GPIO as GPIO
+import ASUS.GPIO as GPIO
 import struct
 
 rev = GPIO.RPI_REVISION

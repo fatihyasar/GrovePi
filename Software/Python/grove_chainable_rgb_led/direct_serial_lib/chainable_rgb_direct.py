@@ -30,7 +30,7 @@ THE SOFTWARE.
 '''
 # Note: Connect the chainable LED to port RPISER on the GrovePi
 import time,sys
-import RPi.GPIO as GPIO
+import ASUS.GPIO as GPIO
 import smbus
 
 class rgb_led:

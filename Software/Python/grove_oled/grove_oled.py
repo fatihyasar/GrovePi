@@ -55,7 +55,7 @@ if sys.platform == 'uwp':
     bus = smbus.SMBus(1)
 else:
     import smbus
-    import RPi.GPIO as GPIO
+    import ASUS.GPIO as GPIO
     rev = GPIO.RPI_REVISION
     if rev == 2 or rev == 3:
         bus = smbus.SMBus(1)

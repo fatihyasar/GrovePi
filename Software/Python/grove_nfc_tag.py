@@ -38,7 +38,7 @@ THE SOFTWARE.
 #	read the datasheet though
 
 import time,sys
-import RPi.GPIO as GPIO
+import ASUS.GPIO as GPIO
 import smbus
 
 NFC_ADDR = 0x53

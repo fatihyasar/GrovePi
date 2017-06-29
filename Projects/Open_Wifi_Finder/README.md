@@ -33,7 +33,7 @@ The contents of start.sh are going to be:
  
 ```
 #!/bin/bash
-sudo python /home/pi/wifi_finder.py
+sudo python /home/linaro/wifi_finder.py
 ```
 
 And then open up rc.local
@@ -45,7 +45,7 @@ sudo nano /etc/rc.local
 and add the last few lines of this file should be:
 
 ```
-sudo sh /home/pi/start.sh
+sudo sh /home/linaro/start.sh
 exit 0
 ```
 
