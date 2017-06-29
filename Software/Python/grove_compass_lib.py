@@ -46,12 +46,16 @@ import math
 import ASUS.GPIO as GPIO
 import struct
 
+'''
 rev = GPIO.RPI_REVISION
 if rev == 2 or rev == 3:
     bus = smbus.SMBus(1)
 else:
     bus = smbus.SMBus(0)
-	
+'''
+rev = 2
+bus = smbus.SMBus(1)
+
 HMC5883L_ADDRESS            =0x1E
 
 #CONFIGURATION_REGISTERA     =0x00

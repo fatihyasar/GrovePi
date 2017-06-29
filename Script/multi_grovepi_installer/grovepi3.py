@@ -17,11 +17,15 @@ import math
 import ASUS.GPIO as GPIO
 import struct
 
+rev = 2
+'''
 rev = GPIO.RPI_REVISION
 if rev == 2 or rev == 3:
 	bus = smbus.SMBus(1)
 else:
 	bus = smbus.SMBus(0)
+'''
+bus = smbus.SMBus(1)
 
 # I2C Address of Arduino
 address = 0x03 

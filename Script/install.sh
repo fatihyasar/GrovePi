@@ -1,5 +1,5 @@
 #! /bin/bash
-curl --silent https://raw.githubusercontent.com/DexterInd/script_tools/master/install_script_tools.sh | bash
+curl --silent https://raw.githubusercontent.com/fatihyasar/script_tools/master/install_script_tools.sh | bash
 
 PIHOME=/home/linaro
 DEXTERSCRIPT=$PIHOME/Dexter/lib/Dexter/script_tools

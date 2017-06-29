@@ -48,18 +48,23 @@ import ASUS.GPIO as GPIO
 import struct
 import sys
 
-debug =0
+debug =1
+
 
 if sys.version_info<(3,0):
 	p_version=2
 else:
 	p_version=3
 
+'''
 rev = GPIO.RPI_REVISION
 if rev == 2 or rev == 3:
 	bus = smbus.SMBus(1)
 else:
 	bus = smbus.SMBus(0)
+'''
+
+bus = smbus.SMBus(1)
 
 # I2C Address of Arduino
 address = 0x04
