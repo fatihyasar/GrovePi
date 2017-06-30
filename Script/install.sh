@@ -2,7 +2,7 @@
 curl --silent https://raw.githubusercontent.com/fatihyasar/script_tools/master/install_script_tools.sh | bash
 
 PIHOME=/home/linaro
-DEXTERSCRIPT=$PIHOME/work/script_tools
+DEXTERSCRIPT=$PIHOME/work/lib/script_tools
 USER_ID=$(/usr/bin/id -u)
 USER_NAME=$(/usr/bin/who am i | awk '{ print $1 }')
 SCRIPT_PATH=$(/usr/bin/realpath $0)
