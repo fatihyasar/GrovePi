@@ -204,7 +204,7 @@ install_spi_i2c() {
 install_avr() {
 	feedback "Installing avrdude"
 	feedback "=================="
-	source /home/linaro/work/script_tools/install_avrdude.sh
+	source /home/linaro/work/lib/script_tools/install_avrdude.sh
 	create_avrdude_folder
     install_avrdude
     cd $ROBOT_DIR
