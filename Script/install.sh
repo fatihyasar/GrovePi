@@ -2,7 +2,7 @@
 curl --silent https://raw.githubusercontent.com/fatihyasar/script_tools/master/install_script_tools.sh | bash
 
 PIHOME=/home/linaro
-DEXTERSCRIPT=$PIHOME/Dexter/lib/Dexter/script_tools
+DEXTERSCRIPT=$PIHOME/work/script_tools
 USER_ID=$(/usr/bin/id -u)
 USER_NAME=$(/usr/bin/who am i | awk '{ print $1 }')
 SCRIPT_PATH=$(/usr/bin/realpath $0)
@@ -204,7 +204,7 @@ install_spi_i2c() {
 install_avr() {
 	feedback "Installing avrdude"
 	feedback "=================="
-	source /home/linaro/Dexter/lib/Dexter/script_tools/install_avrdude.sh
+	source /home/linaro/work/script_tools/install_avrdude.sh
 	create_avrdude_folder
     install_avrdude
     cd $ROBOT_DIR
